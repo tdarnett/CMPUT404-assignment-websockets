@@ -27,6 +27,7 @@ From ws4py
 
 Copyright (c) 2011-2014, Sylvain Hellegouarch, Abram Hindle
 All rights reserved.
+Modifications made by Taylor Arnett. 
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -57,3 +58,13 @@ Contributors
 
 * Mark Galloway
 * Abram Hindle
+
+
+**Resources**
+I referenced python's queue docs quite often. Specifically:
+- https://docs.python.org/2/library/queue.html#Queue.Queue.get
+- https://docs.python.org/2/library/queue.html#Queue.Queue.put_nowait
+
+The code in this assignment was largely influenced by Abram Hindles Web Socket Examples which uses Apache License, Version 2.0:
+- https://github.com/abramhindle/WebSocketsExamples/blob/master/static/chat.html
+- https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
